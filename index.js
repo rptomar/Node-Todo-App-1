@@ -11,7 +11,7 @@ const port = process.env.PORT || 8000;
 const todoRoutes = require("./routes/Todo");
 
 const app = express();
-const uri = process.env.MONGODB_URI;
+const uri = "mongodb+srv://rohitpal:9520015947@cluster0.thh8eba.mongodb.net/?retryWrites=true&w=majority";
 //const localURI = "mongodb://127.0.0.1:27017/todoapp";
 
 // DB connection
